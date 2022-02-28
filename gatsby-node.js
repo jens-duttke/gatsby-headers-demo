@@ -6,10 +6,6 @@ module.exports = {
 		/** @type {import('webpack').Configuration} */
 		const config = getConfig();
 
-		if (!('devServer' in config)) {
-			config.devServer = {};
-		}
-
 		config.devServer = {
 			...config.devServer,
 			headers: {
