@@ -1,0 +1,58 @@
+{
+	"compilerOptions": {
+		// General settings for code interpretation
+		"target": "esnext",
+		"module": "commonjs",
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"noEmit": true,
+		"noEmitOnError": true,
+		"removeComments": false,
+		"resolveJsonModule": true,
+		"useDefineForClassFields": true,
+
+		"baseUrl": "./src",
+
+		// General settings for code interpretation
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"newLine": "LF",
+
+		// Console output settings
+		"noErrorTruncation": true,
+		"preserveWatchOutput": false,
+		"pretty": true,
+
+		// Code validation
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"exactOptionalPropertyTypes": false,
+		"forceConsistentCasingInFileNames": true,
+		"importsNotUsedAsValues": "remove",
+		"keyofStringsOnly": false, // Since TypeScript 2.9, keyof types include symbolic/numeric properties. This option is for legacy code.
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitUseStrict": false, // Cannot be activated together with `alwaysStrict`
+		"noPropertyAccessFromIndexSignature": true,
+		"noStrictGenericChecks": false,
+		"noUncheckedIndexedAccess": false, // That's too noisy for a lot of code
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"suppressExcessPropertyErrors": false,
+		"suppressImplicitAnyIndexErrors": false,
+		"useUnknownInCatchVariables": true
+	},
+    "include": [
+		"./src/**/*"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "gatsby-plugin-webworker",
+	"sideEffects": true,
+	"private": true,
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"dependencies": {
+		"worker-loader": "3.0.8"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"bierner.markdown-emoji",
+		"bierner.markdown-preview-github-styles",
+		"christian-kohler.path-intellisense",
+		"dbaeumer.vscode-eslint",
+		"DigitalBrainstem.javascript-ejs-support",
+		"editorconfig.editorconfig"
+	]
+}
