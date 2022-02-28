@@ -15,9 +15,7 @@ const IndexPage: React.FunctionComponent<PageProps<unknown>> = () => {
 			}
 		});
 
-		worker.postMessage({
-			buffer: new SharedArrayBuffer(1)
-		});
+		worker.postMessage(new SharedArrayBuffer(1));
 	}, []);
 
 	return (
